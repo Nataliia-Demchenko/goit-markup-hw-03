@@ -307,15 +307,24 @@ h2 {
     background-color: var(--accent-color);
 }
 .our-projects-title {
-    margin: 0 24px 4px 24px;
+    margin-bottom: 4px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.text{
-    margin: 0 24px;
+.our-projects-link {
+    padding: 20px 24px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #eeeeee;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #eeeeee;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eeeeee;
 }
 .our-projects .link {
     text-decoration: none;
@@ -335,9 +344,6 @@ h2 {
     flex-basis: calc((100% - 60px) / 3);
     flex-wrap: wrap;
     gap: 30px;
-}
-.our-projects-images {
-    margin-bottom: 20px;
 }
 
 /* Container */
